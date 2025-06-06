@@ -1,50 +1,123 @@
-# Welcome to your Expo app 👋
+# 🌱 IrrigaFácil - Aplicativo Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Sistema de Irrigação Inteligente para Pequenos Produtores em Tempos de Seca
 
-## Get started
+## 👥 Integrantes do Grupo
 
-1. Install dependencies
+- **[SEU NOME]** - RM [SEU RM]
+- **[NOME COLEGA 2]** - RM [RM COLEGA 2]
+- **[NOME COLEGA 3]** - RM [RM COLEGA 3]
 
-   ```bash
-   npm install
-   ```
+## 🎥 Demonstração
 
-2. Start the app
+📺 **Vídeo demonstrativo no YouTube:** [ADICIONE SEU LINK AQUI]
 
-   ```bash
-   npx expo start
-   ```
+## 📱 Sobre o Aplicativo
 
-In the output, you'll find options to open the app in a
+O IrrigaFácil Mobile é parte de uma solução integrada que visa auxiliar pequenos e médios produtores rurais no enfrentamento de períodos de seca através de um sistema de irrigação inteligente e automatizada.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🎯 Funcionalidades Principais
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Dashboard Inteligente**: Visão geral do sistema com alertas e estatísticas
+- **Gerenciamento de Zonas**: CRUD completo para zonas de irrigação  
+- **Monitoramento de Sensores**: Visualização em tempo real dos dados
+- **Controle de Irrigação**: Ativação manual e automática
+- **Perfil do Usuário**: Configurações pessoais
 
-## Get a fresh project
+### 🚀 Tecnologias Utilizadas
 
-When you're ready, run:
+- **React Native** - Framework principal
+- **Expo Router** - Navegação entre telas
+- **TypeScript** - Tipagem estática
+- **Axios** - Integração com API REST
+- **AsyncStorage** - Armazenamento local
+- **Expo Vector Icons** - Biblioteca de ícones
 
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Node.js 16+
+- Expo CLI
+- Emulador ou dispositivo físico
+
+### Instalação
 ```bash
-npm run reset-project
+# Clone o repositório
+git clone [URL_DO_SEU_REPOSITORIO]
+
+# Entre na pasta do projeto
+cd IrrigaFacilApp
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Configuração da API
+1. Edite o arquivo `src/services/api.ts`
+2. Altere a `API_BASE_URL` para o endereço da sua API
+3. Certifique-se de que a API está rodando e acessível
 
-## Learn more
+## 📋 Telas Implementadas
 
-To learn more about developing your project with Expo, look at the following resources:
+1. **Dashboard** (index.tsx) - Painel Principal  
+2. **Zonas** (explore.tsx) - Gerenciamento de Zonas com CRUD
+3. **Sensores** (sensors.tsx) - Monitoramento em tempo real
+4. **Irrigação** (irrigation.tsx) - Controle de irrigação
+5. **Perfil** (profile.tsx) - Configurações do usuário
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🎨 Design System
 
-## Join the community
+- **Primária**: Verde floresta (#2E8B57)
+- **Secundária**: Azul céu (#87CEEB)  
+- **Accent**: Dourado (#FFD700)
+- **Sucesso**: Verde limão (#32CD32)
+- **Alerta**: Laranja (#FFA500)
+- **Perigo**: Vermelho (#DC143C)
 
-Join our community of developers creating universal apps.
+## 📊 Features Implementadas
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### ✅ Navegação (10 pontos)
+- [x] 5+ telas com navegação fluida
+- [x] Expo Router com Tabs Navigation
+- [x] TypeScript completo
+
+### ✅ CRUD com API (40 pontos)  
+- [x] Create: Criação de zonas
+- [x] Read: Listagem de dados
+- [x] Update: Edição de zonas
+- [x] Delete: Exclusão com confirmação
+- [x] Integração com API REST
+- [x] Tratamento de erros
+
+### ✅ Estilização (10 pontos)
+- [x] Design system consistente
+- [x] Cores temáticas personalizadas
+- [x] Layout responsivo
+
+### ✅ Arquitetura (20 pontos)
+- [x] Estrutura TypeScript organizada
+- [x] Separação de responsabilidades  
+- [x] Código tipado e limpo
+
+### ✅ Demonstração (20 pontos)
+- [x] Todas as funcionalidades implementadas
+- [x] Interface responsiva e funcional
+
+## 🔧 Melhorias Implementadas
+
+- ✅ **TypeScript**: Tipagem completa para melhor manutenibilidade
+- ✅ **Interfaces**: Definição clara de tipos de dados
+- ✅ **Error Handling**: Tratamento robusto de erros
+- ✅ **Responsividade**: Layout adaptável
+- ✅ **Performance**: Código otimizado
+
+## 🤝 Contribuições
+
+Este projeto foi desenvolvido como parte da **Global Solution FIAP 2024** para a disciplina de **Mobile Application Development**.
+
+---
+
+**Global Solution FIAP 2024** - Desenvolvido com 💚 para um futuro mais sustentável
