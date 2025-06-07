@@ -4,9 +4,11 @@ Sistema de Irrigação Inteligente para Pequenos Produtores em Tempos de Seca
 
 ## 👥 Integrantes do Grupo
 
-- **[SEU NOME]** - RM [SEU RM]
-- **[NOME COLEGA 2]** - RM [RM COLEGA 2]
-- **[NOME COLEGA 3]** - RM [RM COLEGA 3]
+- Robert Daniel da Silva Coimbra - RM555881 – Desenvolvedor Full Stack
+
+- Marcos Antonio Ramalho Neto - RM554611 – Arquiteto de Solução / UX Designer
+
+- Arthur Ramos Dos Santos - RM558798 – Desenvolvedor Full Stack / DevOps
 
 ## 🎥 Demonstração
 
